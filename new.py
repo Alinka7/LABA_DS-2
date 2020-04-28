@@ -5,7 +5,7 @@ server.include_df_index = True
 
 
 class MyApp(server.App):
-    title = "myappfirstApp"
+    title = "myapp"
 
     inputs = [ {    "type": 'dropdown',
                     "label": 'write year',
