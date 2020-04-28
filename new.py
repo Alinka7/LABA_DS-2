@@ -2,8 +2,7 @@ from spyre import server
 import pandas as pd
 
 server.include_df_index = True
-#новий коментар для перевірки
-#новий коментра від нової вітки
+
 
 
 class MyApp(server.App):
