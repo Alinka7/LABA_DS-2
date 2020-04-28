@@ -2,9 +2,7 @@ from spyre import server
 import pandas as pd
 
 server.include_df_index = True
-
-
-
+#коментар нової вітки
 class MyApp(server.App):
     title = "myappfirst"
 
