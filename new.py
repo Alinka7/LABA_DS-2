@@ -46,14 +46,14 @@ class MyApp(server.App):
                 {
                     "type" : 'text',
                     "key" : 'min',
-                    "label" : 'min week',
-                    'value': '1'
+                    "label" : 'min week'
+                    
                 },
                 {
                     "type" : 'text',
                     "key" : 'max',
-                    "label" : 'max week',
-                    'value': '52'
+                    "label" : 'max week'
+                    
                 }
                     
             ]
