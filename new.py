@@ -3,7 +3,7 @@ import pandas as pd
 
 server.include_df_index = True
 
-
+#коментра
 
 class MyApp(server.App):
     title = "lab"
