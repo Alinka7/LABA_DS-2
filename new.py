@@ -116,6 +116,7 @@ class MyApp(server.App):
     def plot2(self, params):
         fr = self.table2(params)
         return fr.plot()
+    #додаю коментар щоб перевірити 
    
 app = MyApp()
 app.launch( )
