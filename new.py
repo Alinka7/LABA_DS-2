@@ -116,7 +116,9 @@ class MyApp(server.App):
     def plot2(self, params):
         fr = self.table2(params)
         return fr.plot()
-    #додаю коментар щоб перевірити 
+    #додаю коментар щоб перевірити
+    #роблю коміт щоб перевріити вітку fixcode 
+
    
 app = MyApp()
 app.launch( )
