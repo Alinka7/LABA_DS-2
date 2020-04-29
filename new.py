@@ -85,7 +85,7 @@ class MyApp(server.App):
     tabs = ["plot1", "table1","table2","plot2"]
 
     def table1(self, params):
-        name ='vhi_{}.csv'
+        name ='папка/vhi_{}.csv'
         df = pd.DataFrame()
         year = int(params['year'])
         minweek = int(params['min'])       
@@ -102,7 +102,7 @@ class MyApp(server.App):
         return frame.set_index(f1['week']).plot()
         
     def table2(self, params):
-        name ='vhi_{}.csv'
+        name ='папка/vhi_{}.csv'
         df = pd.DataFrame()
         minweek = int(params['min'])       
         maxweek = int(params['max']) 
